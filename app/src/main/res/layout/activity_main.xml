@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parent"
+    android:background="@drawable/gridrepeat"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    tools:context="com.tanishqsharma.verseful.MainActivity">
+
+    <!-- Canvas to be converted to bitmap -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/canvas"
+        android:background="@drawable/gridrepeat"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <!-- Story -->
+        <EditText
+            android:id="@+id/story"
+            android:textSize="13sp"
+            android:letterSpacing="0.1"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:hint="What's your story?"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+
+        <!-- Linear Layout Consisting Dash and Author -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Dash -->
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/dash"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:background="@android:color/transparent"
+                android:letterSpacing="0.2"
+                android:text="—"
+                android:layout_height="wrap_content" />
+
+
+            <!-- Author -->
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/author"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:background="@android:color/transparent"
+                android:letterSpacing="0.2"
+                android:text="verseful"
+                android:hint="author"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveAction"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/logodeer_gradient"
+            android:padding="10dp"
+            android:text="Save To Gallery"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

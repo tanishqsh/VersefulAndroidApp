@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "537795714889",
+    "firebase_url": "https://verseful-fb04f.firebaseio.com",
+    "project_id": "verseful-fb04f",
+    "storage_bucket": "verseful-fb04f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537795714889:android:ed1a6f798e65d0ac",
+        "android_client_info": {
+          "package_name": "com.tanishqsharma.verseful"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537795714889-30uacndv410pkuu3dibhdug5ij003gd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tanishqsharma.verseful",
+            "certificate_hash": "008a1cc53ac48f1bd11c2294adca8cf730be7d13"
+          }
+        },
+        {
+          "client_id": "537795714889-v3eonr6pi8fof7bdlcr214jildl4klng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnCs5uqOCsMkqusNMN-Q82grmrr06sPMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537795714889-v3eonr6pi8fof7bdlcr214jildl4klng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
